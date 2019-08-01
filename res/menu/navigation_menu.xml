@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/account"
+        android:icon="@drawable/usrername"
+        android:title="My Account"/>
+    <item android:id="@+id/nitc_website"
+        android:icon="@drawable/password"
+        android:title="NITC Website"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/password"
+        android:title="Log out"/>
+
+</menu>

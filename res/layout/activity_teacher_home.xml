@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_addStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:onClick="addStudent"
+                android:text="ADD STUDENT"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn_createSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="CREATE SUBJECT"
+                android:onClick="createSubject"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn_takeAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="takeAttendanceActivity"
+                android:layout_marginTop="25dp"
+                android:text="TAKE ATTENDACE"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn_Location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="takeToLocationActivity"
+                android:layout_marginTop="25dp"
+                android:text="LOCATION SERVICE"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="130dp"
+                android:background="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/btn_viewAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="viewAttendanceForTeacher"
+                android:layout_marginTop="30dp"
+                android:text="VIEW ATTENDANCE"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn_viewDutyLeaveRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="viewAttendanceForTeacher"
+                android:layout_marginTop="30dp"
+                android:text="VIEW DUTY LEAVE REQUEST"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn_logoutTeacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:onClick="teacherLogout"
+                android:text="LOG OUT"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

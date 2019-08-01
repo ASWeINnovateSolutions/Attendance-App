@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewAttendanceOfStudentsForTeacherAfterRetrievingFromFirebase">
+
+    <TextView
+        android:id="@+id/textView_Total_Classes_Taken"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Total Classes Taken: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_Total_Classes_Attended"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Total Classes Attended: "
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/final_recycler_view_for_teacherToViewAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

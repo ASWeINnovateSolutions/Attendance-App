@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentRegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#000"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="REGISTRATION"
+                android:textColor="#FFFFC107"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:id="@+id/edt_studentName"
+                android:layout_height="80dp"
+                android:hint="Name"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Roll No- (Eg: B160139CS)"
+                android:layout_height="80dp"
+                android:maxLength="10"
+                android:id="@+id/edt_roll"
+                android:inputType="textCapCharacters"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Email - ID: aswin_b160139cs@nitc.ac.in"
+                android:layout_height="80dp"
+                android:id="@+id/edt_email"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Personal Number"
+                android:layout_height="80dp"
+                android:id="@+id/edt_personalNumber"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Faculty Advisor Name"
+                android:layout_height="80dp"
+                android:id="@+id/edt_facultyAdvisorName"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:id="@+id/edt_facultyAdvisorNumber"
+                android:hint="Faculty Advisor Phone Number"
+                android:inputType="phone"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Guardian Phone number 1"
+                android:inputType="phone"
+                android:id="@+id/emergency1"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Guardian Phone number 2 (Friends)"
+                android:inputType="phone"
+                android:id="@+id/emergency2"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_height="80dp"
+                android:id="@+id/password"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:id="@+id/confirmPassword"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn_submit_student_reg"
+                android:layout_height="80dp"
+                android:layout_marginBottom="500dp"
+                android:text="SUBMIT"
+                android:textSize="30sp"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

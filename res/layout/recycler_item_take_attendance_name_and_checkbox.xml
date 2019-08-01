@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView_student_rollNo_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="65dp"
+        android:background="#29CAF3" />
+
+    <CheckBox
+        android:id="@+id/checkBox_attendance"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:checked="false" />
+</FrameLayout>

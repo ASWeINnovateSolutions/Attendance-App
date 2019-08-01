@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TakeAttendanceActivity">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_student_list_for_taking_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:text="MARK SELECTED AS PRESENT"
+        android:onClick="showAbsenteesAndCommit"
+        android:id="@+id/btn_send_attendance_to_db"/>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentRegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#000"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="TEACHER REGISTRATION"
+                android:textColor="#FFFFC107"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <EditText
+                android:id="@+id/edt_teacherName"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/edt_teacherEmail"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:hint="Email: email@nitc.ac.in" />
+
+            <EditText
+                android:id="@+id/edt_teacherDepartment"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:hint="Department" />
+
+            <EditText
+                android:id="@+id/edt_teacherPhoneNumber"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:hint="Phone number 1"
+                android:inputType="phone" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/edt_teacherOptionalPhone"
+                android:hint="Phone No: (optional)"
+                android:inputType="phone" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_height="80dp"
+                android:id="@+id/passwordTeacher"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:id="@+id/confirmPasswordTeacher"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:id="@+id/btn_requestAccount"
+                android:text="Request for teacher Account "
+                android:textAllCaps="false"
+                android:onClick="requestAccount"
+                android:textSize="20sp"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

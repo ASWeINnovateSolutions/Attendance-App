@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#AA0707"
+            android:id="@+id/student_retrieved_name"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:text="name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll NO"
+            android:textColor="#FFAA0707"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/student_retrieved_rollNo"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkBox"
+            android:background="#fff"
+            android:checked="false"
+            android:layout_height="45dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="15dp"/>
+    </FrameLayout>
+
+</LinearLayout>

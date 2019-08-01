@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".LocationListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Bus stop"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Cooperative Store"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Main Canteen"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Main gate ATM"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Main Gate"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Administrative Block"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Sports Ground"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="NLHC"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="OAT"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="ELHC"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="IT Complex"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Department Building"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Central Library"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="PG Block"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Basketball Court"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Aryabhatta Auditorium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Playground"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="PG 1 Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="A Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="B Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="PG 2 Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="C Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Mini Canteen"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="D Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="F Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="E Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="G Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Mechanical Lab"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Hydraulics Lab"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="SBI ATM INSIDE"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Training and Placement Department"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Auditorium "
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Central Computer Center(CCC)"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="International Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Mega Hostel Boys"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Ladies Hostel"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Faculty apartments"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="NITC Swimming Pool"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="ECLC "
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Mathematics Department"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Physics Department"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Chemistry Department"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="School of Management Studies"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="MBA Hostel "
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="NITC guest House "
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background" android:textSize="20sp" 
+                android:text="Chemical Engineering Department"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
